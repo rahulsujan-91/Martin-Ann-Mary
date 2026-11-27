@@ -419,7 +419,8 @@
       .map-art { width: 100%; height: clamp(180px, 52vw, 197px); background-position: center; background-size: contain; }
       .portrait-grid { width: 100%; }
       .photo-frame { max-width: 100%; }
-      .gallery-grid { width: 100%; grid-auto-rows: clamp(132px, 39vw, 147px); }
+      .gallery-grid { width: 100%; grid-auto-rows: clamp(132px, 39vw, 147px); grid-template-rows: repeat(2, clamp(160px, 44vw, 180px)) clamp(132px, 39vw, 147px); }
+      .gallery-item:nth-child(-n + 3) { margin: 0; }
       .gallery-item img { object-fit: contain; }
       .calendar-actions { width: 100%; }
       .calendar-button { width: min(100%, 310px); }
