@@ -1,0 +1,13 @@
+Add your original media here, then update the WEDDING configuration near the bottom of index.html if you use different names.
+
+Expected names:
+- music.mp3
+- couple-1.jpg
+- couple-2.jpg
+- gallery-1.jpg
+- gallery-2.jpg
+- gallery-3.jpg
+- gallery-4.jpg
+- social-preview.jpg (1200 x 630 pixels; use after publishing for WhatsApp sharing)
+
+The website is intentionally safe when an image or music file is absent: the elegant placeholders remain visible and music gracefully stays disabled.
